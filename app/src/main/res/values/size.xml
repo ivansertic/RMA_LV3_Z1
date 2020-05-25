@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="boxWidth">64dp</dimen>
+    <dimen name="boxHeight">64dp</dimen>
+    <dimen name="topMargin">100dp</dimen>
+    <dimen name="leftMargin">20dp</dimen>
+    <dimen name="counterSize">50dp</dimen>
+</resources>

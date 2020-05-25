@@ -1,0 +1,2 @@
+rootProject.name='LV3'
+include ':app'

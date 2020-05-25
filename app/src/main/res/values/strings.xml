@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LV3</string>
+    <string name="gray_bird">Gray Bird</string>
+    <string name="red_bird">Red Bird</string>
+    <string name="black_bird">Black Bird</string>
+    <string name="blue_bird">Blue Bird</string>
+    <string name="starting_count">0</string>
+    <string name="reset">Reset</string>
+</resources>

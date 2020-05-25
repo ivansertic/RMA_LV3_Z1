@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/twNumber"
+        android:layout_width="@dimen/boxWidth"
+        android:layout_height="@dimen/boxHeight"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:layout_marginTop="@dimen/topMargin"
+        android:gravity="center"
+        android:text="@string/starting_count"
+        android:textColor="@color/black"
+        android:textSize="@dimen/counterSize"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnBlackBird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/twNumber"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="@dimen/topMargin"
+        android:text="@string/black_bird"
+        android:layout_marginLeft="@dimen/leftMargin"/>
+    <Button
+        android:id="@+id/btnGreyBird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/twNumber"
+        app:layout_constraintLeft_toRightOf="@id/btnBlackBird"
+        android:layout_marginTop="@dimen/topMargin"
+        android:text="@string/gray_bird"
+        android:textColor="@color/gray"
+        />
+
+    <Button
+        android:id="@+id/btnRedBird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/twNumber"
+        app:layout_constraintLeft_toRightOf="@id/btnGreyBird"
+        android:layout_marginTop="@dimen/topMargin"
+        android:text="@string/red_bird"
+        android:textColor="@color/red"
+        />
+
+    <Button
+        android:id="@+id/btnBlueBird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/twNumber"
+        app:layout_constraintLeft_toRightOf="@id/btnRedBird"
+        android:layout_marginTop="@dimen/topMargin"
+        android:text="@string/blue_bird"
+        android:textColor="@color/blue"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnRedBird"
+        android:layout_marginTop="@dimen/topMargin"
+        android:text="@string/reset"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
