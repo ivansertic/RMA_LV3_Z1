@@ -28,6 +28,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="@dimen/topMargin"
         android:text="@string/black_bird"
+        android:textColor="@color/black"
         android:layout_marginLeft="@dimen/leftMargin"/>
     <Button
         android:id="@+id/btnGreyBird"
